@@ -6,11 +6,7 @@ function App() {
   const { loading } = useTweed();
 
   if (loading)
-    return (
-      <>
-        <DemoPage />
-      </>
-    );
+    return (<> Loading</>);
 
   return (
     <>
